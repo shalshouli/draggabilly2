@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Draggabilly</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="images/folder.webp" type="image/x-icon">
+</head>
+
+<body>
+  
+  <section id="s1">
+      <div class="div1"> <img class="draggable" src="images/folder.webp"></div>
+      <div class="div2"> <img class="draggable" src="images/spotify.png" alt=""></div>
+      <div class="div3"> <img class="draggable" src="images/grass.png" alt=""></div>
+      <div class="div4"> <img class="draggable" src="images/kirby.gif" alt=""></div>
+      <div class="div5"> <img class="draggable" src="images/kirby.png" alt=""></div>
+      <div class="div6"> <img class="draggable" src="images/cra.png" alt=""></div>
+      <div class="div7"> <img class="draggable" src="images/mew.gif" alt=""></div>
+      <div class="div8"> <img class="draggable" src="images/folder.webp" alt=""></div>
+      <div class="div9"> <img class="draggable" src="images/naruto.gif" alt=""></div>
+      <div class="div10"> <img class="draggable" src="images/sasuke.gif" alt=""></div>
+  </section>
+
+</body>
+
+<script src="https://unpkg.com/draggabilly@3/dist/draggabilly.pkgd.min.js"></script>
+
+<script>
+var draggableElems = document.querySelectorAll('.draggable');
+var draggies = []
+for ( var i=0; i < draggableElems.length; i++ ) {
+  var draggableElem = draggableElems[i];
+  var draggie = new Draggabilly( draggableElem, {
+  });
+  draggies.push( draggie );
+}
+</script>
+
+</html>
