@@ -15,7 +15,6 @@ Figma : https://www.figma.com/design/mW5TwXslj5baeL65JYN80z/Draggabilly?node-id=
 
 ![Alt text](images/Allium.webp)
 ![Alt text](images/Blue_Orchid.webp)
-![Alt text](images/Vase.webp)
 ![Alt text](images/Lilac.webp)
 ![Alt text](images/Cornflower.webp)
 
